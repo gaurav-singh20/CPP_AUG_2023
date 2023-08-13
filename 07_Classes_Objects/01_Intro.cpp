@@ -18,14 +18,14 @@ class Building{
     string windowColor;
     int elevator;
 
-    void elevatorFunctioning(){
+    void elevatorFunctioning(){  //functions defined inside the class is called "method"
         //Working of elevator
     }
 };
 
 int main(){
 
-    Building b1;
+    Building b1; //b1 is onject
 
     b1.door;
     b1.window;
