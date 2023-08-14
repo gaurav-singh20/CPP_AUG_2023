@@ -1,0 +1,80 @@
+Time Complexity and Space Complexity
+
+# ---------------------------------------Time Complexity------------------------------------------------- 
+-> Amount of time taken by algorith to run,
+-> as a function of length of the input.
+
+#notations used to measure performance :-
+Big O notation -> worst case (Upper bound)
+Theta θ notation -> average case
+Omega Ω notation -> Best case (lower bound)
+
+# Representations :
+-> constant time "O(1)" : when worst case and best case are same.
+
+        for(i= 0--->10){
+
+        }
+
+-> linear time "O(n)" : when the running time of an algorithm increases linearly with the size of the input.
+
+        for(i= 0--->n){
+
+        }
+
+-> quadratic time "O(n^2)" : when the runtime of the algorithm is directly proportional to the square of the size of the input.
+        
+        for(i= 0--->n){      >> O(n)
+          for(j= 0--->n){    >> O(n)
+
+          }
+        }                    >> O(n*n)
+
+-> cubic time "O(n^3)" : 
+
+        for(){
+          for(){
+            for(){
+
+            }
+          }
+        }
+
+# Fastest :
+  O(1) > O(log n) > O(n) > O(n logN) > O(N^2) > O(n^3) > O(2^n)
+
+# Complexity :
+  O(1) < O(log n) < O(n) < O(n logN) < O(N^2) < O(n^3) < O(2^n)
+
+#finding complexity:
+->ignore the constants and the lower degrees
+->example:
+ f(n) -> 5(n^2) +2n = O(n^2)
+ f(n) -> 3(n^2) - 4(n^3) +3 = O(n^30)
+ f(n) -> 1000 =O(1)
+ f(n) -> n^2 + logN = O(n^2)
+ f(n) -> n-3/5 = 0(n)
+
+#complexity of the algorithm:
+        for(i=0;i->n;i++){
+          for(k=0;k->n;k++){
+            ....
+          }
+        }         -> O(n^2)
+        for(l=0;l->n,l++){
+          ....
+        }         -> O(n)       overall = O(n^2 + n) = O(n)
+
+  `for(i=0;i->n;i++){      -> O(n)
+    for(k=n;k->i;k--){     -> O(n)
+      ...
+    }
+  }             -> O(n^2)
+
+
+
+  ` 
+
+# ------------------------------------------------- Space Complexity ---------------------------------------------------
+-> Amount of space/memory taken by algorith,
+-> as a function of length of the input.
