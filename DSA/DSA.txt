@@ -78,3 +78,19 @@ Omega Ω notation -> Best case (lower bound)
 # ------------------------------------------------- Space Complexity ---------------------------------------------------
 -> Amount of space/memory taken by algorith,
 -> as a function of length of the input.
+
+# -------------------------------------------------- Arrays -------------------------------------------------------------
+
+#Advantages	:
+a. Easy to Access Elements	
+b. Efficient Memory Usage	
+c. Fast Search and Sorting	
+d. Flexibility in Data Types	
+e. Simple to Understand	
+
+#Disadvantages  :
+a. Fixed Size
+b. Wastage of Memory
+c. Difficulty in Inserting and Deleting Elements
+d. Inefficient for Search
+e. Limited Flexibility
