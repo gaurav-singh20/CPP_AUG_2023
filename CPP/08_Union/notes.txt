@@ -1,0 +1,15 @@
+#Structure
+-struct is a collection of user defined data types stored at different memory location.
+-not memory efficient.
+-takes the memory of sum of all the variables that struct holding
+
+#Union
+-union is a collection of user defined data types stored at same memory location.
+-union can only hold one member value at time.
+-memory efficient.
+-union takes the size of the heighest size consuming variable.
+
+#Enum
+-Enumeration is defined with enum keyword
+-size of enum is 4 X (number of constant inside) as each constant is an integer of 4 bytes
+-enum is a collection of user defined data types for representing integer based constants.
