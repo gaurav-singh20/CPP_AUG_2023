@@ -29,7 +29,7 @@ int binarySearch(int arr[], int size, int key){
     return -1;
 }
 
-int main(){
+int main(){ 
     int evenArr[6] = {2,4,5,7,8,9};
     int oddArr[5] = {2,3,4,5,6};
 

@@ -36,7 +36,3 @@ int main(){
     printArray(oddArr, 5);
 
 }
-
-
-
-// You are given an array of integers, arr, containing n elements. Write a C++ function int linearSearch(int arr[], int n, int target) to perform a linear search and find the index of the first occurrence of the target element within the array. If the target element is not found, the function should return -1.

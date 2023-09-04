@@ -29,13 +29,15 @@ int linearSearch(int arr[], int n, int target) {
 }
 
 int main() {
-    int arr[5];
+    int t,arr[5]={1,51,20,99,20};
 
-    cout << "enter emlements: " <<endl;
-    for(int i=0;i<5;i++){
-    cin >> arr[i];
-    }
-    int target = 5;
-    int index = linearSearch(arr, 9, target);
-    cout << index;
+    // cout << "enter emlements: " <<endl;
+    // for(int i=0;i<5;i++){
+    // cin >> arr[i];
+    // }
+    cout<<"Enter target value : ";
+    cin>>t;
+    int target = t;
+    int index = linearSearch(arr, 5, target);
+    cout << "Index no. is : " << index;
 }

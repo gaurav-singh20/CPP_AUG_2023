@@ -57,4 +57,7 @@ int lastOcc(int arr[], int size, int key){
 int main(){
     int arr[5] = {1,2,3,3,5};
 
-    cout << "First occ of 3 is " << firstOcc(arr, 5 , 3) << endl;}
+    cout << "First occ of 3 is at index : " << firstOcc(arr, 5 , 3) << endl;
+    cout << "Last occ of 3 is at index : " << lastOcc(arr, 5 , 3) << endl;
+
+}
