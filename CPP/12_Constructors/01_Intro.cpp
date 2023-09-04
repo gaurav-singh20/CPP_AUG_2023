@@ -2,6 +2,8 @@
 //constructor's name is same as the class name
 //constructor is an method but without any return type value.
 
+//default constructor has no parameters, however input arguments are available for parametrized constructors and copy constructors.
+
 #include <iostream>
 using namespace std;
 
