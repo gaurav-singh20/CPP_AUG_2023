@@ -12,4 +12,4 @@
 #Enum
 -Enumeration is defined with enum keyword
 -size of enum is 4 X (number of constant inside) as each constant is an integer of 4 bytes
--enum is a collection of user defined data types for representing integer based constants.
+-enum is a collection of user defined data types for representing integer based constants
