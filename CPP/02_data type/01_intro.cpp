@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    // int myInteger=5; // int x is initialisation and int x=5 is decelaration
+    // int myInteger=5; // int x=5 is initialisation and int x is decelaration
     // // myInteger=10
     // int y;
     // double myDouble=5.5; 
