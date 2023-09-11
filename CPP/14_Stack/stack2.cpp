@@ -8,14 +8,13 @@ class Stack{
 
         public:
         int size;
-        void Stack1(/*int size*/){
-            //this->size=size;
+
+        Stack(){
             arr = new int[size];
             top = -1;
-
         }
-        // void Stack1(/*int size*/){
-        //     //this->size=size;
+        // void Stack1(int size){
+        //     this->size=size;
         //     arr = new int[size];
         //     top = -1;
 
