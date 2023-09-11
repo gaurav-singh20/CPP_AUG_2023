@@ -1,0 +1,12 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+int main(){
+  ofstream onFile;
+  string str;
+  onFile.open("prac1.txt");
+  getline(cin,str);
+  onFile << str;
+}
