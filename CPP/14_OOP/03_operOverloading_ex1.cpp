@@ -19,7 +19,7 @@ class Fraction{
 
   Fraction operator *(Fraction &obj){
     Fraction temp;
-    temp.a = a* obj.a;
+    temp.a = a * obj.a;
     temp.b = b * obj.b;
 
     return temp;
