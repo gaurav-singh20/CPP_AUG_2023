@@ -2,10 +2,13 @@
 using namespace std;
 
 //Polymorphia -> Poly = many, Murph = forms
+//two type - compile time and run time polymorphism
 //same entity (function or operator) behaves deifferently in different scenarios.
 //eg. function overloading
 
 //function overloading
+//it is a COMPILE TIME POLYMORPHISM because the complier knows
+//which function to execute before the program is compiled.
 int sum(int num1,int num2){
   return num1 + num2;
 }
@@ -22,7 +25,7 @@ int main(){
   // int a = 5;
   // int b =10;
 
-  // int c= a+b;
+  // int c = a+b;
   // cout << c <<endl;
 
 
