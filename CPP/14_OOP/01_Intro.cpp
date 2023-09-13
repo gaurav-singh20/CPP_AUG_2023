@@ -7,7 +7,7 @@ using namespace std;
 //eg. function overloading
 
 //function overloading
-//it is a COMPILE TIME POLYMORPHISM because the complier knows
+//it is a COMPILE TIME POLYMORPHISM because the compiler knows
 //which function to execute before the program is compiled.
 int sum(int num1,int num2){
   return num1 + num2;
@@ -46,3 +46,14 @@ int main(){
   cout << sum(2,3,4) << endl;  //func 3 called
 
 }
+
+
+//-----------------------------------------------------------------
+
+/*
+rules for operator overloading
+  -atleast one of the operand must be a user defined class object
+  -we can only overload existing operators
+  -some operators cannot be overloaded
+     eg. ?: , :: , . ,
+*/
