@@ -1,13 +1,21 @@
 #include <iostream>
-#include <string>
 using namespace std;
+class MyClass {
+public:
+    int num;
+
+    MyClass() {
+        num = 10;
+    }
+
+    MyClass(const MyClass& other) {
+        num = other.num * 2;
+    }
+};
 
 int main() {
-    string str1 = "Hello";
-    string str2 = "World";
-    str1[0] = 'h';
-    cout << str1 << endl;
-    str2[0] = 'n';
-    cout << str2 << endl;
+    MyClass obj1;
+    MyClass obj2 = obj1;
+    cout << obj2.num;
     return 0;
 }
