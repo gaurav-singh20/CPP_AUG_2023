@@ -112,7 +112,7 @@ int main(){
     display(head);
     cout << endl;
 
-    deletion(head, 20);
+    deletion(head, 10);
 
     display(head);
 
