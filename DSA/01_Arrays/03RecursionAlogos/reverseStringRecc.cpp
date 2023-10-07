@@ -15,3 +15,26 @@ int main(){
   revStr(s,0,4);
   cout<<s;
 }
+
+
+//replace pi with 3.14
+
+
+// #include <iostream>
+// #include <cstring>
+// using namespace std;
+
+// void piRep(char* str,int i){
+//   if(i==strlen(str)){
+//     return;
+//   }
+  
+//   piRep(str,i+1);
+// }
+
+// int main(){
+//   char s[100]="pippiipzypi";
+//   piRep(s,0);
+//   cout<<s;
+// }
+
