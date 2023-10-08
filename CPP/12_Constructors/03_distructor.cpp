@@ -4,7 +4,7 @@ using namespace std;
 /*destructor is used to destroy the object of a class when the 
 scope of object ends
 It has the same name as the class and starts with ~ (tilde)*/
-
+//doesn't take any argument, nor return any value. 
 class Person{
   public:
   Person(){
