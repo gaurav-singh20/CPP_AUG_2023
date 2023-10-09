@@ -4,7 +4,8 @@ using namespace std;
 //Polymorphia -> Poly = many, Murph = forms
 //two type - compile time and run time polymorphism
 //same entity (function or operator) behaves deifferently in different scenarios.
-//eg. function overloading
+//eg. for compile time overloading - function overloading, operator overloading
+//run time polymorphism - function overriding (using vertual function)
 
 //function overloading
 //it is a COMPILE TIME POLYMORPHISM because the compiler knows
