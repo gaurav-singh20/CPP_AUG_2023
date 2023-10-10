@@ -1,6 +1,19 @@
 #include <iostream>
 using namespace std;
 
+int printSum(int arr[][4],int row, int col){
+  int sum=0;
+  for(int row=0;row<3;row++){
+    for(int col=0;col<4;col++){
+      sum+=arr[row][col];
+    }
+    cout << endl;
+  }
+  return sum;
+}
+
+
+
 int main(){
   int arr[3][4];
 
@@ -25,5 +38,7 @@ int main(){
     }
     cout << endl;
   }
+
+  cout << printSum(arr,3,3);
 
 }
