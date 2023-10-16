@@ -2,9 +2,73 @@
 using namespace std;
 
 /*
-abstract class refers toa class containing atleast one pure virtual function, whicih cannot be instantiated.
+abstract class refers to a class containing atleast one pure virtual function, which cannot be instantiated.
 */
 
-int main(){
+// class Shape{
+  // public:
+  // int shape_width;
+  // int shape_height;
+  // void width(int w){
+  //   shape_width = w;
+  // }
+  // void height(int h){
+  //   shape_height = h;
+  // }
+  // int perimeterOfSquare(int side){
+  //   return 4*side;
+  // }
+  // int perimeterOfRect(int l, int b){
+  //   return 2*(l+b);
+  // }
+  //all the functionS of square and rectangle are clumbed in a single class.
+// };
 
+class Shape{
+  public:
+  int shape_width;
+  int shape_height;
+
+  void width(int w){
+    shape_width = w;
+  }
+  
+  void height(int h){
+    shape_height = h;
+  }
+  
+  int perimeterOfSquare(int side){
+    return 4*side;
+  }
+  
+  int perimeterOfRect(int l, int b){
+    return 2*(l+b);
+  }
+  
+  virtual int perimeter() = 0;
+};
+
+class Rectangle : public Shape{
+  public:
+  int perimeter(){
+    return 2*(shape_height + shape_width);
+  }
+};
+
+class Square : public Shape{
+  public:
+  int perimeter(){
+    return 4*shape_width;
+  }
+};
+
+int main(){
+  Rectangle r1;
+  Square s1;
+
+  r1.width(10);
+  r1.height(5);
+  s1.width(12);
+
+  cout << r1.perimeter();
 }
