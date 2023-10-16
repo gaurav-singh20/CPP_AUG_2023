@@ -3,6 +3,11 @@ using namespace std;
 
 /*
 abstract class refers to a class containing atleast one pure virtual function, which cannot be instantiated.
+
+charecteristics- 
+1.abstract class must have atleast one pure virtual function.
+2.abstract classes cannot be instantiated, but pointer and references of abstract class types can be cerated. we cannot create object of an abstract class.
+3. classes that inherits the abstract class must implement all pure function.
 */
 
 // class Shape{
