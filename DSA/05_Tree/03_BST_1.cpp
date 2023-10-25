@@ -64,20 +64,20 @@ int countNode(Node* root){
 }
 
 int main(){
-  Node* root = new Node(1);
-  root->left= new Node(2);
-  root->right= new Node(3);
 
-  root->left->left= new Node(4);
-  root->left->right= new Node(5);
-  root->right->left=new Node(6);
-
-  if(searchInBst(root,5)==NULL){
-    cout << "key doesn't exist" << endl;
+  int a,b;
+  Node* root = NULL;
+  cin >> a;
+  while(a--){
+    cin >> b;
+    root = insertBST(root,b);
   }
 
+  if(searchInBst(root,7)){
+    cout << "yes";
+  }
   else{
-    cout << "key found" << endl;
+    cout << "NO";
   }
 
   cout << countNode(root) << endl;
