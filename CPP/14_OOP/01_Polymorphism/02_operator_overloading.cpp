@@ -27,7 +27,10 @@ class Count{
 int main(){
 
   Count count1;
+  // ++count1;
   ++count1;
   count1.display();
-
+  int a=15;
+  ++a;
+  cout << a;
 }
