@@ -12,9 +12,12 @@ using namespace std;
   -never a larger disk is placed on a smaller disk during the transfer
 */
 
+
+//finding no. of moves to move n disks from A to C through B
+
 void towerOfHanoi(int n, char src, char aux, char dest){
   if(n==1){
-    cout << "Move disk- " << n << " from " << src << " to " << dest << endl;
+    cout << "Move disk- " << n << " fromm " << src << " to " << dest << endl;
     return;
   }
 
