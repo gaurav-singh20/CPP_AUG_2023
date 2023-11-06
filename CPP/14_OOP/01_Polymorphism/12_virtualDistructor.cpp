@@ -27,9 +27,13 @@ class Child : public Base{
 
 int main(){
   Child* ch = new Child();
+  cout << "----------" << endl;
   Base* base = ch;
-
+  cout << "----------" << endl;
   delete base;
+  cout << "----------" << endl;
+  delete ch;
+
 }
 
 //we have used parent class(Base) and a derived class (child), inside which both constructors and destructor are eifned

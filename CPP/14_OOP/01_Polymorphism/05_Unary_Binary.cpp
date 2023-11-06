@@ -41,10 +41,12 @@ class UnaryOverload{
 int main(){
   UnaryOverload obj;
   obj.input();
+  // ++obj;
   obj++;
   cout << "After Increament : " << endl;
   obj.output();
 
+  // --obj;
   obj--;
   cout << "After Increament : " << endl;
   obj.output();
