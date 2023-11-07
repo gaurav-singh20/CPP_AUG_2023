@@ -64,7 +64,7 @@ class Employee: public Person{
   double salary;
 
   public:
-  Employee(string eName,int eAge,int EmId, double eSalary) : Person(eName,eAge){
+  Employee(string eName,int eAge,int EmId, double eSalary) : Person(eName,eAge){z
     EmployeeId=EmId;
     salary=eSalary;
   }

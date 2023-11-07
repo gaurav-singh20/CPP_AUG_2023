@@ -36,6 +36,7 @@ class C : public A, public B{
 
     void print(){
         A::display();
+        // display();
     }
 };
 
@@ -48,4 +49,6 @@ int main(){
     // c1.get_b(4);
 
     // c1.display();
+
+    c1.print();
 }
