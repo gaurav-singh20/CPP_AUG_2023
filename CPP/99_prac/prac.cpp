@@ -1,19 +1,18 @@
 #include <iostream>
+#include <deque>
 using namespace std;
 
-class Point {
-public:
-    int x, y;
-    Point(int x_val, int y_val) : x(x_val), y(y_val) {}
-    Point operator-(Point& other) {
-        return Point(x - other.x, y - other.y);
-    }
-};
-
-int main() {
-    Point p1(5, 10);
-    Point p2(2, 6);
-    Point result = p1 - p2;
-    cout << result.x << ", " << result.y;
+int main(){
+    unsigned int i;
+    deque<int> a(3, 100);
+    deque<int> b(5, 200);
+    a.swap(b);
+    cout << "a contains:";
+    for (deque<int>::iterator it = a.begin(); it != a.end(); ++it)
+        cout << ' ' << *it;
+    cout << endl;
+    cout << "b contains:";
+    for (deque<int>::iterator it = b.begin(); it != b.end(); ++it)
+        cout << ' ' << *it;
     return 0;
 }
