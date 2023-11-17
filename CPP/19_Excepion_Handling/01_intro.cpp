@@ -79,3 +79,28 @@ int main(){
     cout << "Devision by zero : " << e << endl;
   } 
 }
+
+//EXAMPLE 2
+// int main(){
+//     int arr[5] = {1,2,3,4,5}, i;
+
+//     try{
+//         i = 0;
+//         while(1){
+//             if(i!=5) 
+//             {
+//                 cout << arr[i] << endl;
+//                 i++; 
+//             }
+//             else{
+//                 throw i;
+//             }
+//         }
+//     }
+
+//     catch(int e){
+//         cout << "Array index was out of bounds " << e << endl;
+//     }
+
+
+// }
