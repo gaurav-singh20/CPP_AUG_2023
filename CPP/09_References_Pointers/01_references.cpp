@@ -12,6 +12,7 @@ void test(int &n){
 int& test2(int n){
     int num = n;
     int &ans = num;
+    cout << ans;
     return ans;
 }
 
@@ -22,6 +23,7 @@ int main(){
 
     test2(n);
     // test(n);
+    cout << test2(n);
 
     // cout << "value of n from main method is : " << n << endl;
 

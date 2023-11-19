@@ -25,8 +25,9 @@ class A{
 
 int main(){
     A<int,double> obj1(2,2.2,'a');
-    // cout << "value : " << endl;
-    // obj1.print() ;
+    cout << "value : " << endl;
+    obj1.print() ;
+    cout<<endl;
 
     A<double, char,bool> obj2(3.3,'a',true);
     cout << "value : " << endl;

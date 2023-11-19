@@ -13,6 +13,9 @@ void insertionSort(int arr[], int size){
             else{
                 break;
             }
+            for(int i = 0; i < 7; i++){
+                cout << arr[i] << " ";
+            } cout << endl;
         }
         arr[j+1] = temp;
     }
@@ -24,7 +27,7 @@ int main(){
 
     insertionSort(arr, 7);
 
-    for(int i = 0; i < 7; i++){
-        cout << arr[i] << " ";
-    }
+    // for(int i = 0; i < 7; i++){
+    //     cout << arr[i] << " ";
+    // }
 }

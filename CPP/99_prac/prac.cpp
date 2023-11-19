@@ -1,18 +1,26 @@
 #include <iostream>
-#include <deque>
+#include <queue>
 using namespace std;
 
 int main(){
-    unsigned int i;
-    deque<int> a(3, 100);
-    deque<int> b(5, 200);
-    a.swap(b);
-    cout << "a contains:";
-    for (deque<int>::iterator it = a.begin(); it != a.end(); ++it)
-        cout << ' ' << *it;
-    cout << endl;
-    cout << "b contains:";
-    for (deque<int>::iterator it = b.begin(); it != b.end(); ++it)
-        cout << ' ' << *it;
-    return 0;
+    priority_queue<int,vector<int>,greater<int>> q;
+    q.push
+    int size=0;
+    arr[100];
+    arr[0]=-1;
+    void insert(int val){
+        size++;
+        int index = size;
+        arr[index]=val;
+        while(1<index){
+            int parent = index/2;
+            if(arr[parent]<arr[index]){
+                swap();
+                index=parent;
+            }
+            else{
+                return;
+            }
+        }
+    }
 }

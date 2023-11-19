@@ -38,4 +38,6 @@ int main(){
     s3.setData();
     s3.getData();
     Students::getCount();
+    s3.getCount();
+    s2.getCount();
 }

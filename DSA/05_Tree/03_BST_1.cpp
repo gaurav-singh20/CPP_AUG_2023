@@ -63,6 +63,15 @@ int countNode(Node* root){
   return count;
 }
 
+void inorder(Node* root){
+  if(root==NULL) return;
+
+  inorder(root->left);
+  
+  cout << root->data << " ";
+  inorder(root->right);
+}
+
 int main(){
 
   int a,b;
@@ -73,12 +82,13 @@ int main(){
     root = insertBST(root,b);
   }
 
-  if(searchInBst(root,7)){
-    cout << "yes";
-  }
-  else{
-    cout << "NO";
-  }
-
+  inorder(root);
+  // if(searchInBst(root,7)){
+  //   cout << "yes";
+  // }
+  // else{
+  //   cout << "NO";
+  // }
+  cout << endl;
   cout << countNode(root) << endl;
 }

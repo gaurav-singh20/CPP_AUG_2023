@@ -43,14 +43,16 @@ class Number{
         num = n;
     }
 
-    T getNum();
+    T getNum(){
+        return num;
+    };
 
 };
 
-template <class T>
-T Number<T> :: getNum(){
-    return num;
-}
+// template <class T>
+// T Number<T> :: getNum(){
+//     return num;
+// }
 
 int main(){
     
